@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = 'prasannakumarjm/shop:latest'
+        DOCKER_IMAGE = 'sanjay188/devops:latest'
     }
     stages {
         stage('Checkout Code') {
