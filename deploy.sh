@@ -5,7 +5,7 @@ echo "🚀 Starting Deployment..."
 
 # 🔑 Login to Docker Hub securely
 echo "🔑 Logging into Docker Hub..."
-echo "virat@18vk" | docker login -u "$sanjay188" --password-stdin
+echo "virat@18vk" | docker login -u "$sanjay188" -p "virat@18vk"
 
 # 🐳 Build and Push Docker Image
 echo "🐳 Building Docker Image..."
