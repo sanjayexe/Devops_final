@@ -14,10 +14,7 @@ docker build -t sanjay188/devops:latest .
 echo "📤 Pushing Image to Docker Hub..."
 docker push sanjay188/devops:latest
 
-# 🛑 Stop and Remove Previous Container
-echo "🛑 Stopping old container..."
-docker stop my-service-repo || true
-docker rm my-service-repo || true
+
 
 # 🗑 Clean old images
 echo "🗑 Removing old Docker images..."
